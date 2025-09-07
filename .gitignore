@@ -1,0 +1,13 @@
+﻿*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.flv
+*.wmv
+status.json
+kill_cut.*
+cut.*
+__pycache__/
+*.log
+*.tmp
