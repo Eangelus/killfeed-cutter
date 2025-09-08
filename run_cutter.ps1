@@ -1,1 +1,0 @@
-$videoFolder="D:\Battlefield 6";$dockerPath=$videoFolder -replace "\\","/" -replace "^([A-Z]):","/$1";docker run --rm -v "${dockerPath}:/videos" -w /videos python:3.10-slim bash -c "apt update && apt install -y tesseract-ocr libgl1 && pip install moviepy==1.0.3 pytesseract opencv-python tqdm && python kill_extractor.py"
